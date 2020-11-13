@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, World</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Add link to homepage on logo -->
+        <div class="header__logo">
+            <img src="./images/lonely-planet-logo.png" alt="Lonely Planet logo">
+        </div>
+        <!-- Navigation bar -->
+        <nav class="navigation_bar"> 
+            <a href="index.html">Home</a>
+            <a href="germany.html">Germany</a>
+            <a href="peru.html">Peru</a>
+            <a href="newZealand.html">New Zealand</a>
+            <a href="japan.html">Japan</a>
+            <a href="scotland.html">Scotland</a>
+        </nav>
+        <!-- Country image -->
+        <div class="header__country_image">
+            <img class="country_image" src="./images/japan.jpg" alt="Japanese hillside with houses">
+        </div>
+        <!-- Country name -->
+        <h1 class="header__country_name">Japan</h1>
+    </header>
+
+    <!-- Country info -->
+    <main class="content">
+        <!-- Country cities -->
+        <article class="content__country">
+            <section class="city_list">
+                <h1 class="content__headers">Cities</h1>
+                <div class="city">Tokyo</div>
+                <div class="city">Kyoto</div>
+                <div class="city">Osaka</div>
+            </section>
+            <!-- Country landmarks-->
+            <section class="landmarks_list">
+                <h1 class="content__headers">Landmarks</h1>
+                <div class="landmark">Tokyo Tower</div>
+                <div class="landmark">Fushimi Inari Taisha Shrine</div>
+                <div class="landmark">Dotonbori District</div>
+            </section>
+            <!-- Country famous citizens -->
+            <section class="famous_citizens_list">
+                <h1 class="content__headers">Famous Citizens</h1>
+                <div class="citizen">Hayao Miyazaki</div>
+                <div class="citizen">Yoko Ono</div>
+                <div class="citizen">Shigeru Miyamoto</div>
+            </section>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer__copyright_info"> 
+            <small>&copy; Copyright 2020, The Text Shadows</small> 
+    </footer>
+
+</body>
+</html>
