@@ -1,0 +1,11 @@
+.content_info{
+    display: flex; 
+    flex: row; 
+    padding: 15px;
+}
+
+.about_us{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    margin: 30px;
+}

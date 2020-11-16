@@ -8,6 +8,8 @@
 
 @import "country_list.css";
 
+@import "homepage.css";
+
 .logo {
     height: 400px;
 }
