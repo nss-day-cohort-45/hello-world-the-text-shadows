@@ -1,0 +1,11 @@
+.logo {
+    height: 400px;
+}
+.navigation_bar {
+    display: flex;
+    background-image: linear-gradient(260deg, #236bae 0%, #6ecf8e   100%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    font-size: 25px;
+    justify-content: space-between;
+}
