@@ -6,6 +6,8 @@
 
 @import "background&font.css";
 
+@import "country_list.css";
+
 .logo {
     height: 400px;
 }
@@ -19,4 +21,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
+a {
+    text-decoration: none;
+}
