@@ -1,7 +1,11 @@
-@import "background&font.css" ;
-@import "footer.css" ;
-@import "countryimage.css" ;
 @import "country_name_styling.css";
+
+@import "footer.css";
+
+@import "countryimage.css";
+
+@import "background&font.css";
+
 .logo {
     height: 400px;
 }
