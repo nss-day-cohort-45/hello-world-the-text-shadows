@@ -1,0 +1,44 @@
+h1.content__headers {
+    margin-bottom: 0px;
+}
+
+.header__country_name {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+}
+
+.city_list {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.city {
+    text-transform: none;
+    font-size: 1.25rem;
+    
+}
+
+.landmarks_list {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.landmark {
+    text-transform: none;
+    font-size: 1.25rem;
+}
+
+.famous_citizens_list {
+    font-family: 'Poppins', sans-serif;  
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.citizen {
+    text-transform: none;
+    font-size: 1.25rem;
+}
