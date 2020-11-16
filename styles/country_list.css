@@ -1,0 +1,26 @@
+.content__country{
+    display: flex;
+    flex: row;
+    padding: 20px;
+}
+
+.city_list{
+    width: 30%;
+    border: 3px dotted grey;
+    padding: 20px;
+    margin: 10px;
+}
+
+.landmarks_list{
+    width: 30%;
+    border: 3px dotted grey;
+    padding: 20px;
+    margin: 10px;
+}
+
+.famous_citizens_list{
+    width: 30%;
+    border: 3px dotted grey;
+    padding: 15px;
+    margin: 15px;
+}
