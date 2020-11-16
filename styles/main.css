@@ -1,4 +1,10 @@
-@import "country_list.css";
+@import "country_name_styling.css";
+
+@import "footer.css";
+
+@import "countryimage.css";
+
+@import "background&font.css";
 .logo {
     height: 400px;
 }
@@ -9,4 +15,5 @@
     padding: 30px;
     font-size: 25px;
     justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
 }
