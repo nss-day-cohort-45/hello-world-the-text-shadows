@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-@import "footer.css";
-
-@import "countryimage.css";
-=======
 @import "background&font.css" ;
-
->>>>>>> a1c20abaa9f3fcb87c487d69c8a1310706acf528
+@import "footer.css" ;
+@import "countryimage.css" ;
 .logo {
     height: 400px;
 }
