@@ -6,6 +6,8 @@
 
 @import "background&font.css";
 
+@import "country_list.css";
+
 .logo {
     height: 400px;
 }
