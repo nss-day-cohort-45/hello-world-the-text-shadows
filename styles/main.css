@@ -3,6 +3,9 @@
 @import "footer.css";
 
 @import "countryimage.css";
+
+@import "background&font.css";
+
 .logo {
     height: 400px;
 }
@@ -13,4 +16,6 @@
     padding: 30px;
     font-size: 25px;
     justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+
 }
