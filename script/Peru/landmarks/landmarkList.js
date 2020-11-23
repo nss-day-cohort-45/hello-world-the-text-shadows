@@ -1,16 +1,16 @@
 // landmarkList takes HTML translated objects and places them on the DOM
 
-import { Landmark } from './landmark.js'
-import { useLandmark } from './dataProvider.js'
+import { Landmark } from '/script/Peru/landmarks/landmark.js'
+import { useLandmark } from '/script/Peru/landmarks/dataProvider.js'
 
 export const LandmarkList = () =>{
     //get a reference to the <> element
-    const contentElement = document.querySelector(".peruHTML/landmark")
+    const contentElement = document.querySelector(".landmarks_list")
     //grab a copy on the city list
-    const cities = useLandmark()
+    const landmark = useLandmark()
     //iterates through city collection, translate objects to HTML, places HTML on the DOM
-    for( const landmarkObject of landmarks){
-        const cityHTML = Landmark(landmarkObject)
+    for(const landmarkObject of landmark){
+        const landmarkHTML = Landmark(landmarkObject)
         contentElement.innerHTML += landmarkHTML
     }
 }
