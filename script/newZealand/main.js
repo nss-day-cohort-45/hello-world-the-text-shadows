@@ -6,3 +6,4 @@ citizenList()
 
 import { landmarkList } from "/script/newZealand/landmarks/landmarkList.js"
 landmarkList()
+
