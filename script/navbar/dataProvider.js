@@ -2,6 +2,11 @@
 
 export const linkCollection = [
     {
+        countryName: "Home",
+        fileName: "index.html"
+    },
+    
+    {
         countryName: "Germany",
         fileName: "germany.html"
     },
@@ -24,12 +29,8 @@ export const linkCollection = [
     {
         countryName: "Scotland",
         fileName: "scotland.html"
-    },
-
-    {
-        countryName: "Home",
-        fileName: "index.html"
     }
+
 ]
 
 export const useLink = () =>{
